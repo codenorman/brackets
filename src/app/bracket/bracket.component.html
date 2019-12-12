@@ -1,0 +1,9 @@
+
+<!--<div *ngFor="let bracket of data.results[0][0]">-->
+  <div *ngFor="let match of round">
+    <app-match class="match" [match]="match"></app-match>
+  </div>
+<!--</div>-->
+
+<hr>
+<pre>{{rounds|json}}</pre>

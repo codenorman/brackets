@@ -1,0 +1,21 @@
+.team {
+  background: blue;
+  width: 25%;
+  margin: 2px;
+  border-radius: 3px;
+  color: aliceblue;
+}
+
+.bye {
+  background: yellowgreen;
+}
+
+.score{
+  font-size: 20px;
+  float: right;
+  padding-right: 5px;
+}
+
+.winner {
+  background-color: fuchsia;
+}

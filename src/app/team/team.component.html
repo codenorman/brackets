@@ -1,0 +1,2 @@
+<div class="team" [ngClass]="{'winner': team.isWinner}" *ngIf="team">{{team.name}} <span class="score"> {{team.score}}</span></div>
+<div class="team bye" *ngIf="!team">BYE</div>
